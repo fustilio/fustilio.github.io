@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on fustilio personal webpage</title>
-    <link>/tags/</link>
+    <link>fustilio.github.io/tags/</link>
     <description>Recent content in Tags on fustilio personal webpage</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 26 Jan 2020 20:48:19 +0800</lastBuildDate>
     
-        <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="fustilio.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Initial Commit</title>
-      <link>/2020/01/initial-commit/</link>
+      <link>fustilio.github.io/2020/01/initial-commit/</link>
       <pubDate>Sun, 26 Jan 2020 20:48:19 +0800</pubDate>
       
-      <guid>/2020/01/initial-commit/</guid>
+      <guid>fustilio.github.io/2020/01/initial-commit/</guid>
       <description>Finally got down to creating this site, without any customization and the entirety of the site is pretty much identical to the example site provided. I just wanted some place to pen down my ideas and projects before I forget and in true maker spirit I hope to be able to share some of the lessons I&amp;rsquo;ve learnt along the way. I suppose this will like my very own twitter or facebook where I can share things with people who are interested without disturbing people who don&amp;rsquo;t really care.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>fustilio.github.io/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
+      <guid>fustilio.github.io/about/</guid>
       <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 Hugo makes use of a variety of open source projects including:
  https://github.</description>
