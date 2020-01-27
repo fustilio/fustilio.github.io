@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on fustilio personal webpage</title>
+    <link>/categories/blog/</link>
+    <description>Recent content in blog on fustilio personal webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 26 Jan 2020 20:48:19 +0800</lastBuildDate>
+    
+        <atom:link href="/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>So I made this 3D pong game you can&#39;t even play</title>
+      <link>/2020/01/pong-3d-ml/</link>
+      <pubDate>Sun, 26 Jan 2020 23:22:20 +0800</pubDate>
+      
+      <guid>/2020/01/pong-3d-ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Initial Commit</title>
+      <link>/2020/01/initial-commit/</link>
+      <pubDate>Sun, 26 Jan 2020 20:48:19 +0800</pubDate>
+      
+      <guid>/2020/01/initial-commit/</guid>
+      <description>Finally got down to creating this site, without any customization and the entirety of the site is pretty much identical to the example site provided. I just wanted some place to pen down my ideas and projects before I forget and in true maker spirit I hope to be able to share some of the lessons I&amp;rsquo;ve learnt along the way. I suppose this will like my very own twitter or facebook where I can share things with people who are interested without disturbing people who don&amp;rsquo;t really care.</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>/2019/03/my-first-post/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/my-first-post/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
+pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Markdown Syntax Guide</title>
+      <link>/2019/03/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>/2019/03/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>/2019/03/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
+pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>/2019/03/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>/2019/03/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/2019/03/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+ https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

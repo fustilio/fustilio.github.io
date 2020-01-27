@@ -3,6 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-01-26T20:48:19+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2020-01-26T20:48:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -31,14 +38,15 @@
   </url>
   
   <url>
-    <loc>/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <loc>/categories/thoughts/</loc>
+    <lastmod>2020-01-26T20:48:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
