@@ -45,7 +45,7 @@
   </url>
   
   <url>
-    <loc>/.site.baseurl/2020/01/pong-3d-ml/</loc>
+    <loc>/2020/01/pong-3d-ml/</loc>
     <lastmod>2020-01-26T23:22:20+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -73,7 +73,7 @@
   </url>
   
   <url>
-    <loc>/.site.baseurl/2020/01/initial-commit/</loc>
+    <loc>/2020/01/initial-commit/</loc>
     <lastmod>2020-01-26T20:48:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
