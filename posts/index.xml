@@ -5,10 +5,19 @@
     <link>/posts/</link>
     <description>Recent content in Posts on fustilio personal webpage</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Jan 2020 20:48:19 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jan 2020 23:22:20 +0800</lastBuildDate>
     
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>So I made this 3D pong game you can&#39;t even play</title>
+      <link>/2020/01/pong-3d-ml/</link>
+      <pubDate>Sun, 26 Jan 2020 23:22:20 +0800</pubDate>
+      
+      <guid>/2020/01/pong-3d-ml/</guid>
+      <description>In a previous hackathon I participated in, there was a project that prototyped the use of machine learning to &amp;ldquo;evolve&amp;rdquo; the capability of in-game AI agents by using user provided input through a Virtual Reality game. I was pretty blown away by the idea of evolution through repetitive training and exposure to user-provided input. I&amp;rsquo;ve seen a couple of videos where developers created simulations with Unity and thought that it might be cool to give it a try myself.</description>
+    </item>
     
     <item>
       <title>Initial Commit</title>
