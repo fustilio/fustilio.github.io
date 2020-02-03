@@ -5,7 +5,7 @@
     <link>/tags/writing/</link>
     <description>Recent content in writing on fustilio personal webpage</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Jan 2020 20:48:19 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jan 2020 11:40:19 +0800</lastBuildDate>
     
         <atom:link href="/tags/writing/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,6 +17,16 @@
       
       <guid>/2020/02/connect-cane/</guid>
       <description>ConnectCane Using NFC tags embedded in tactile paving and an NFC reader attached to a white cane to give the visually impaired more information. Background The challenge statement is to sense everything so I wanted to build a device that would allow the visually impaired to sense their environment. Typically the visually impaired lack independence as their lack of awareness of the environment could potentially lead them to dangerous situations.</description>
+    </item>
+    
+    <item>
+      <title>Ml Agents Examples</title>
+      <link>/2020/01/ml-agents-examples/</link>
+      <pubDate>Wed, 29 Jan 2020 11:40:19 +0800</pubDate>
+      
+      <guid>/2020/01/ml-agents-examples/</guid>
+      <description>I&amp;rsquo;m a little blown away by some of these ML-Agents demos I&amp;rsquo;ve seen on YouTube.
+ML-Agents Showcase Explorer Drone - Github link</description>
     </item>
     
     <item>
