@@ -3,14 +3,91 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/about/</loc>
-    <lastmod>2020-01-28T00:00:00+00:00</lastmod>
+    <loc>/tags/arduino/</loc>
+    <lastmod>2020-02-03T11:00:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-02-03T11:00:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/2020/02/connect-cane/</loc>
+    <lastmod>2020-02-03T11:00:05+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-02-03T11:00:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/hardware/</loc>
+    <lastmod>2020-02-03T11:00:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/navigation/</loc>
+    <lastmod>2020-02-03T11:00:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nfc/</loc>
+    <lastmod>2020-02-03T11:00:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/portfolio/</loc>
+    <lastmod>2020-02-03T11:00:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-02-03T11:00:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/so-i-made-this/</loc>
+    <lastmod>2020-02-03T11:00:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-02-03T11:00:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/text-to-speech/</loc>
+    <lastmod>2020-02-03T11:00:05+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
     <lastmod>2020-01-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -24,13 +101,6 @@
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-01-26T23:22:20+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/tags/random/</loc>
     <lastmod>2020-01-26T23:22:20+08:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -38,7 +108,7 @@
   </url>
   
   <url>
-    <loc>/tags/so-i-made-this/</loc>
+    <loc>/categories/side-project/</loc>
     <lastmod>2020-01-26T23:22:20+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -52,22 +122,8 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>/tags/unity3d/</loc>
     <lastmod>2020-01-26T23:22:20+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/unity/</loc>
-    <lastmod>2020-01-26T23:22:20+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2020-01-26T20:48:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

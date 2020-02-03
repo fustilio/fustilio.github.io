@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>So I made this on fustilio personal webpage</title>
+    <title>so-i-made-this on fustilio personal webpage</title>
     <link>/tags/so-i-made-this/</link>
-    <description>Recent content in So I made this on fustilio personal webpage</description>
+    <description>Recent content in so-i-made-this on fustilio personal webpage</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Jan 2020 23:22:20 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2020 11:00:05 +0800</lastBuildDate>
     
         <atom:link href="/tags/so-i-made-this/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ConnectCane: Navigation Aid for the Visually Impaired</title>
+      <link>/2020/02/connect-cane/</link>
+      <pubDate>Mon, 03 Feb 2020 11:00:05 +0800</pubDate>
+      
+      <guid>/2020/02/connect-cane/</guid>
+      <description>ConnectCane Using NFC tags embedded in tactile paving and an NFC reader attached to a white cane to give the visually impaired more information. Background The challenge statement is to sense everything so I wanted to build a device that would allow the visually impaired to sense their environment. Typically the visually impaired lack independence as their lack of awareness of the environment could potentially lead them to dangerous situations.</description>
+    </item>
     
     <item>
       <title>About Me</title>

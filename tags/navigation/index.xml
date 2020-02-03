@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>navigation on fustilio personal webpage</title>
+    <link>/tags/navigation/</link>
+    <description>Recent content in navigation on fustilio personal webpage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 03 Feb 2020 11:00:05 +0800</lastBuildDate>
+    
+        <atom:link href="/tags/navigation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ConnectCane: Navigation Aid for the Visually Impaired</title>
+      <link>/2020/02/connect-cane/</link>
+      <pubDate>Mon, 03 Feb 2020 11:00:05 +0800</pubDate>
+      
+      <guid>/2020/02/connect-cane/</guid>
+      <description>ConnectCane Using NFC tags embedded in tactile paving and an NFC reader attached to a white cane to give the visually impaired more information. Background The challenge statement is to sense everything so I wanted to build a device that would allow the visually impaired to sense their environment. Typically the visually impaired lack independence as their lack of awareness of the environment could potentially lead them to dangerous situations.</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>/about/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hello There I&amp;rsquo;ve just recently graduated from the National University of Singapore with a Bachelor of Engineering (Computer Engineering) specializing in Interactive Digital Media and am currently working on a variety of small projects while looking for a job that fits!
+I&amp;rsquo;d like to think that studying Computer Engineering has given me a wide range of skillsin both hardware and software domains and I&amp;rsquo;m currently interested in developing applications for virtual/augmented reality.</description>
+    </item>
+    
+    <item>
+      <title>So I made this 3D pong game you can&#39;t even play</title>
+      <link>/2020/01/pong-3d-ml/</link>
+      <pubDate>Sun, 26 Jan 2020 23:22:20 +0800</pubDate>
+      
+      <guid>/2020/01/pong-3d-ml/</guid>
+      <description>In a previous hackathon I participated in, there was a project that prototyped the use of machine learning to &amp;ldquo;evolve&amp;rdquo; the capability of in-game AI agents by using user provided input through a Virtual Reality game. I was pretty blown away by the idea of evolution through repetitive training and exposure to user-provided input. I&amp;rsquo;ve seen a couple of videos where developers created simulations with Unity and thought that it might be cool to give it a try myself.</description>
+    </item>
+    
+    <item>
+      <title>Initial Commit</title>
+      <link>/2020/01/initial-commit/</link>
+      <pubDate>Sun, 26 Jan 2020 20:48:19 +0800</pubDate>
+      
+      <guid>/2020/01/initial-commit/</guid>
+      <description>&lt;p&gt;Finally got down to creating this site, without any customization and the entirety of the site is pretty much identical to the example site provided. I just wanted some place to pen down my ideas and projects before I forget and in true maker spirit I hope to be able to share some of the lessons I&amp;rsquo;ve learnt along the way.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

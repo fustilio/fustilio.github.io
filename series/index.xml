@@ -10,6 +10,15 @@
     
     
     <item>
+      <title>ConnectCane: Navigation Aid for the Visually Impaired</title>
+      <link>/2020/02/connect-cane/</link>
+      <pubDate>Mon, 03 Feb 2020 11:00:05 +0800</pubDate>
+      
+      <guid>/2020/02/connect-cane/</guid>
+      <description>ConnectCane Using NFC tags embedded in tactile paving and an NFC reader attached to a white cane to give the visually impaired more information. Background The challenge statement is to sense everything so I wanted to build a device that would allow the visually impaired to sense their environment. Typically the visually impaired lack independence as their lack of awareness of the environment could potentially lead them to dangerous situations.</description>
+    </item>
+    
+    <item>
       <title>About Me</title>
       <link>/about/</link>
       <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
