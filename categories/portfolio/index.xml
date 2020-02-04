@@ -5,7 +5,7 @@
     <link>/categories/portfolio/</link>
     <description>Recent content in portfolio on fustilio personal webpage</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 Feb 2020 11:00:05 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2020 23:00:05 +0800</lastBuildDate>
     
         <atom:link href="/categories/portfolio/index.xml" rel="self" type="application/rss+xml" />
     
@@ -13,7 +13,7 @@
     <item>
       <title>ConnectCane: Navigation Aid for the Visually Impaired</title>
       <link>/2020/02/connect-cane/</link>
-      <pubDate>Mon, 03 Feb 2020 11:00:05 +0800</pubDate>
+      <pubDate>Mon, 03 Feb 2020 23:00:05 +0800</pubDate>
       
       <guid>/2020/02/connect-cane/</guid>
       <description>ConnectCane Using NFC tags embedded in tactile paving and an NFC reader attached to a white cane to give the visually impaired more information. Background Without assistance, visually impaired individuals might often find themselves in dangerous situations due to their lack of spatial awareness or understanding of their environment. For example, road crossings or approaching escalators in the opposite direction. At these danger areas, tactile paving would allow the visually impaired to be alerted but what if the tactile paving would tell them more?</description>
