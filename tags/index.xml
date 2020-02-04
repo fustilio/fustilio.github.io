@@ -5,10 +5,19 @@
     <link>/tags/</link>
     <description>Recent content in Tags on fustilio personal webpage</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 04 Feb 2020 11:00:05 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2020 19:26:23 +0800</lastBuildDate>
     
         <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Enhanced Spatial Awareness for the Visually Impaired using Mixed Reality and Vibrotactile Feedback</title>
+      <link>/2020/02/mixed-reality-vision/</link>
+      <pubDate>Tue, 04 Feb 2020 19:26:23 +0800</pubDate>
+      
+      <guid>/2020/02/mixed-reality-vision/</guid>
+      <description>One in six people have some form of visual impairment ranging from mild vision loss to total blindness. The visually impaired constantly face the danger of walking into people or hazardous objects. This project proposes the use of vibrotactile feedback to serve as an obstacle detection system for visually impaired users. We utilize a mixed reality headset with on-board depth sensors to build a digital map of the real world and a suit with an array of actuators to provide feedback as to indicate to the visually impaired the position of obstacles around them.</description>
+    </item>
     
     <item>
       <title>DoodleCloud: Drawing in the Sky</title>

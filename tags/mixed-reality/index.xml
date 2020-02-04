@@ -30,32 +30,12 @@ From past experiences, we knew the importance of having a winning idea before an
     </item>
     
     <item>
-      <title>Hacking the Hack</title>
-      <link>/2020/02/hackathon-methodology/</link>
-      <pubDate>Tue, 04 Feb 2020 11:00:05 +0800</pubDate>
-      
-      <guid>/2020/02/hackathon-methodology/</guid>
-      <description>DoodleCloud DoodleCloud was made as part of the Global VR Hackathon 2019 which I participated with Caryn. We were given 48-hours and the theme of the hackathon was &amp;ldquo;Cloud&amp;rdquo;. We developed a VR drawing game, DoodleCloud, where players would try their best to draw pictures in the sky using their finger.
-From past experiences, we knew the importance of having a winning idea before anything. We began our ideation process by penning down words related to &amp;ldquo;Cloud&amp;rdquo; and studying the capabilities of the VR Headsets that were provided.</description>
-    </item>
-    
-    <item>
       <title>ConnectCane: Navigation Aid for the Visually Impaired</title>
       <link>/2020/02/connect-cane/</link>
       <pubDate>Mon, 03 Feb 2020 23:00:05 +0800</pubDate>
       
       <guid>/2020/02/connect-cane/</guid>
       <description>Using NFC tags embedded in tactile paving and an NFC reader attached to a white cane to give the visually impaired more information. Background Without assistance, visually impaired individuals might often find themselves in dangerous situations due to their lack of spatial awareness or understanding of their environment. For example, road crossings or approaching escalators in the opposite direction. At these danger areas, tactile paving would allow the visually impaired to be alerted but what if the tactile paving would tell them more?</description>
-    </item>
-    
-    <item>
-      <title>Ml Agents Examples</title>
-      <link>/2020/01/ml-agents-examples/</link>
-      <pubDate>Wed, 29 Jan 2020 11:40:19 +0800</pubDate>
-      
-      <guid>/2020/01/ml-agents-examples/</guid>
-      <description>I&amp;rsquo;m a little blown away by some of these ML-Agents demos I&amp;rsquo;ve seen on YouTube.
-ML-Agents Showcase Explorer Drone - Github link</description>
     </item>
     
     <item>
@@ -66,15 +46,6 @@ ML-Agents Showcase Explorer Drone - Github link</description>
       <guid>/about/</guid>
       <description>Hello There I&amp;rsquo;ve just recently graduated from the National University of Singapore with a Bachelor of Engineering (Computer Engineering) specializing in Interactive Digital Media and am currently working on a variety of small projects while looking for a job that fits!
 I&amp;rsquo;d like to think that studying Computer Engineering has given me a wide range of skillsin both hardware and software domains and I&amp;rsquo;m currently interested in developing applications for virtual/augmented reality.</description>
-    </item>
-    
-    <item>
-      <title>Template Post</title>
-      <link>/2020/01/template-post/</link>
-      <pubDate>Mon, 27 Jan 2020 15:13:33 +0800</pubDate>
-      
-      <guid>/2020/01/template-post/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -93,43 +64,6 @@ I&amp;rsquo;d like to think that studying Computer Engineering has given me a wi
       
       <guid>/2020/01/initial-commit/</guid>
       <description>&lt;p&gt;Finally got down to creating this site, without any customization and the entirety of the site is pretty much identical to the example site provided. I just wanted some place to pen down my ideas and projects before I forget and in true maker spirit I hope to be able to share some of the lessons I&amp;rsquo;ve learnt along the way.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>/2019/03/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/03/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>/2019/03/rich-content/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/03/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>/2019/03/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/03/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>/2019/03/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/2019/03/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
     </item>
     
   </channel>
