@@ -87,27 +87,6 @@
   </url>
   
   <url>
-    <loc>/2020/01/ml-agents-examples/</loc>
-    <lastmod>2020-01-29T11:40:19+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/thoughts/</loc>
-    <lastmod>2020-01-29T11:40:19+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/writing/</loc>
-    <lastmod>2020-01-29T11:40:19+08:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/about/</loc>
     <lastmod>2020-01-28T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -151,6 +130,20 @@
   
   <url>
     <loc>/2020/01/initial-commit/</loc>
+    <lastmod>2020-01-26T20:48:19+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/thoughts/</loc>
+    <lastmod>2020-01-26T20:48:19+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/writing/</loc>
     <lastmod>2020-01-26T20:48:19+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
