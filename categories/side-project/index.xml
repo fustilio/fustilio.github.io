@@ -5,10 +5,20 @@
     <link>/categories/side-project/</link>
     <description>Recent content in side-project on fustilio personal webpage</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 26 Jan 2020 23:22:20 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 04 Feb 2020 11:00:05 +0800</lastBuildDate>
     
         <atom:link href="/categories/side-project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DoodleCloud</title>
+      <link>/2020/02/doodle-cloud/</link>
+      <pubDate>Tue, 04 Feb 2020 11:00:05 +0800</pubDate>
+      
+      <guid>/2020/02/doodle-cloud/</guid>
+      <description>DoodleCloud DoodleCloud was made as part of the Global VR Hackathon 2019 which I participated with Caryn. We were given 48-hours and the theme of the hackathon was &amp;lsquo;Cloud&amp;rsquo;. We developed a VR drawing game, DoodleCloud, where players would try their best to draw pictures in the sky using their finger.
+From past experiences, we knew the importance of having a winning idea before anything. We began our ideation process by penning down words related to &amp;lsquo;Cloud&amp;rsquo; and studying the capabilities of the VR Headsets that were provided.</description>
+    </item>
     
     <item>
       <title>ConnectCane: Navigation Aid for the Visually Impaired</title>
