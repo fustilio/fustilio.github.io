@@ -276,6 +276,39 @@ model-viewer:focus {
   border-bottom: var(--border-style);
 }
 
+.vrdemo {
+  /* grid-area: demo;
+  position: sticky;
+  top: 0;
+  height: auto;
+  flex: auto;
+  
+  align-items: center;
+  justify-content: center;
+  border: 0px solid #555;
+  box-sizing: border-box; */
+  /* flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0px solid #555; */
+  /* align-items: center;
+  justify-content: center; */
+  /* position: relative; */
+  /* padding-bottom: 56.25%; /* 16:9 */
+  /* padding-top: 25px; */
+  /* height: 0;  */
+}
+
+.vrdemo iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 .demo {
   grid-area: demo;
   position: sticky;

@@ -14,38 +14,24 @@
 
     <script>
     
-      window.addEventListener('load', onVrViewLoad);
-
       function onVrViewLoad() {
         // Selector '#vrview' finds element with id 'vrview'.
         var vrView = new VRView.Player('#vrview', {
           image: './images/view1height1.jpg',
-          is_stereo: false
+          is_stereo: false,
+          width: "auto",
+          height: "auto"
         });
       }
+
+      window.addEventListener('load', onVrViewLoad);
 
     </script>
 
 </head>
 
-<body data-gr-c-s-loaded="true">
-	<div>
-
-    <div id="demo-container" class="demo">
-
-      <!-- Use it like any other HTML element -->
-      <div id='vrview'></div>
-    
-    </div>
-    <div class="content">
-        <div class="wrapper">
-
-    
-
-        </div>
-    </div>
-  </div>
-
+<body>
+  <div id='vrview' class="vrdemo"></div>
 </body>
 
 </html>
