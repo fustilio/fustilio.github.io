@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>CSI:FoL Model Viewer</title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no,
+  minimum-scale=1.0, maximum-scale=1.0">
+    <link type="text/css" href="../csisite.css" rel="stylesheet">
+
+    <!-- Import the component -->
+    <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+
+    <script>
+    
+      window.addEventListener('load', onVrViewLoad);
+
+      function onVrViewLoad() {
+        // Selector '#vrview' finds element with id 'vrview'.
+        var vrView = new VRView.Player('#vrview', {
+          video: './images/video360.mp4',
+          is_stereo: false
+        });
+      }
+
+    </script>
+
+</head>
+
+<body data-gr-c-s-loaded="true">
+	<div>
+
+    <div id="demo-container" class="demo">
+
+      <!-- Use it like any other HTML element -->
+      <div id='vrview'></div>
+    
+    </div>
+    <div class="content">
+        <div class="wrapper">
+
+    
+
+        </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
