@@ -37,7 +37,9 @@
 		<a-sky
 			id="image-360" radius="10" src="#v1h1"
 			animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
-			animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade" rotation="0 0 0">
+			animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade"
+			rotation="0 0 0">
+			<!-- <a-animation attribute="rotation" fill="forwards" easing="linear" dur="10000" from="0 0 0" to="0 360 0" repeat="1"></a-animation> -->
 		</a-sky>
 	  
 		<!-- Link template we will build. -->
@@ -48,14 +50,14 @@
 			sound="on: click; src: #click-sound"
 			event-set__mouseenter="scale: 1.2 1.2 1"
 			event-set__mouseleave="scale: 1 1 1"
-			event-set__click="_target: #image-360; _delay: 300; material.src: ${src};"
+			event-set__click="_target: #image-360; _delay: 300; material.src: ${src}; rotation: ${rot}"
 			proxy-event="event: click; to: #image-360; as: fade"></a-entity>
 		</script>
 
-		<a-entity id="links" layout="type: line; margin: 1.5" position="-3 -1 -4">
-			<a-entity log="Load button 1" template="src: #plane" data-src="#v1h1" data-thumb="#vp1-thumb"></a-entity>
-			<a-entity log="Load button 2" template="src: #plane" data-src="#v2h1" data-thumb="#vp2-thumb"></a-entity>
-			<a-entity log="Load button 3" template="src: #plane" data-src="#v3h1" data-thumb="#vp3-thumb"></a-entity>
+		<a-entity id="links" layout="type: line; margin: 1.5" position="-1.5 0 -4">
+			<a-entity log="Load button 1" template="src: #plane" data-src="#v1h1" data-thumb="#vp1-thumb" data-rot="0 0 0"></a-entity>
+			<a-entity log="Load button 2" template="src: #plane" data-src="#v2h1" data-thumb="#vp2-thumb" data-rot="0 300 0"></a-entity>
+			<a-entity log="Load button 3" template="src: #plane" data-src="#v3h1" data-thumb="#vp3-thumb" data-rot="0 100 0"></a-entity>
 			
 		</a-entity>
 	  
@@ -63,9 +65,12 @@
 		<a-camera>
 		  <a-cursor
 			id="cursor"
+			color="black"
 			animation__click="property: scale; from: 0.1 0.1 0.1; to: 1 1 1; easing: easeInCubic; dur: 150; startEvents: click"
 			animation__clickreset="property: scale; to: 0.1 0.1 0.1; dur: 1; startEvents: animationcomplete__click"
-			animation__fusing="property: scale; from: 1 1 1; to: 0.1 0.1 0.1; easing: easeInCubic; dur: 150; startEvents: fusing"></a-cursor>
+			animation__fusing="property: scale; from: 1 1 1; to: 0.1 0.1 0.1; easing: easeInCubic; dur: 150; startEvents: fusing"
+			event-set__mouseenter="_event: mouseenter; color: white"
+			event-set__mouseleave="_event: mouseleave; color: black"></a-cursor>
 		</a-camera>
 	  </a-scene>
 
