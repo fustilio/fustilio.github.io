@@ -43,7 +43,7 @@
 <meta itemprop="description" content="I was approached by a professor from NUS who wanted to explore the idea of capturing a crime scene in virtual reality. The goal was to try to see if it was possible to take the subjectivity out of crime scene photography. Crime scene photographers have the heavy job of documenting the scene before the other investigators and examiners can touch anything. These photos will then be constantly referenced during the remainder of investigation and procescution, if any.">
 <meta itemprop="datePublished" content="2020-02-12T16:14:33&#43;08:00" />
 <meta itemprop="dateModified" content="2020-02-12T16:14:33&#43;08:00" />
-<meta itemprop="wordCount" content="441">
+<meta itemprop="wordCount" content="755">
 
 
 
@@ -353,7 +353,7 @@
 
         <span class="post-comment"><i class="icon icon-comment"></i>&nbsp;<a href="/2020/02/crime-scene-virtualization/#comments"
             class="article-comment-link">Comments</a></span>
-		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 441 words</span>
+		<span class="post-wordcount hidden-xs" itemprop="wordCount">Word Count: 755 words</span>
       </div>
     </div>
     <div class="article-entry marked-body js-toc-content" itemprop="articleBody">
@@ -397,11 +397,18 @@
 <li><a href="https://www.3dflow.net/3df-zephyr-free/">3DF Zephyr Free</a>
 
 <ul>
-<li>Free for personal use</li>
-<li>Generate models with up to 50 images per model</li>
+<li>Free for personal use; generate models with up to 50 images per model</li>
 <li>360° image decomposition feature</li>
 </ul></li>
 </ol>
+
+<p>Autodesk ReCap is actually really simple to use, just dump your photos in and a couple of minutes later you get back a pretty decent 3D model. The user-interface (for the student license at least) is pretty limiting as there aren&rsquo;t many parameters you can tune. I then proceeded to look for alternatives which could offer a higher tunability, and Meshroom and RealityCapture came up. Both of them process images locally on my computer which meant long waiting times between attempts. I did appreciate the customizability and the lack of a paywall for Meshroom but ultimately it was the control points feature in RealityCapture that was especially useful for the crime scene. I didn&rsquo;t really try Zephyr to do any 3D model construction as I had access to Autodesk ReCap which I&rsquo;d expect to have similar results.</p>
+
+<p>The ability to assign control points was a useful feature as there were many similar points in the images that made it difficult for the software to match automatically. An example would be the blood splatter and drip trails were difficult to differentiate, causing significant distortion and bad texturing. Using control points, we can force the software to use the manually aligned points as reference to stich the model together.</p>
+
+<p align="center">
+  <img src="/assets/images/portfolio/crime-scene-virtualization/blurry_blood_trails.png" style="width:600px;" alt="Blurry blood trails">
+</p>
 
 <h3 id="results">Results</h3>
 
@@ -411,6 +418,20 @@
 <li><a href="/csi">3D Model</a></li>
 <li><a href="/csi/360">360° Viewer</a></li>
 </ol>
+
+<h3 id="learning-points">Learning Points</h3>
+
+<p>Through this process, I&rsquo;ve learnt a few important things.</p>
+
+<ol>
+<li>The photos should be high resolution for better feature matching</li>
+<li>The photos should be ideally taken with the same device or model to minimize the need to calibrate multiple devices</li>
+<li>Extraction of still images from a 360° image causes the extracted rectangular image from any one viewpoint to have a significantly lower resolution than the marketed resolution of 5.2K.</li>
+</ol>
+
+<h3 id="potential-extensions">Potential Extensions</h3>
+
+<p>If time permits, I would like to also look into using machine learning (I love buzz words) to recognize the blood splatter patterns and augment the crime scene with labels. We&rsquo;ll see how it goes.</p>
 
     </div>
     <div class="article-footer">
