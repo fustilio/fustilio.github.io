@@ -5,10 +5,19 @@
     <link>/categories/side-project/</link>
     <description>Recent content in side-project on fustilio personal webpage</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 04 Feb 2020 11:00:05 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 12 Feb 2020 16:14:33 +0800</lastBuildDate>
     
         <atom:link href="/categories/side-project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Crime Scene Virtualization</title>
+      <link>/2020/02/crime-scene-virtualization/</link>
+      <pubDate>Wed, 12 Feb 2020 16:14:33 +0800</pubDate>
+      
+      <guid>/2020/02/crime-scene-virtualization/</guid>
+      <description>I was approached by a professor from NUS who wanted to explore the idea of capturing a crime scene in virtual reality. The goal was to try to see if it was possible to take the subjectivity out of crime scene photography. Crime scene photographers have the heavy job of documenting the scene before the other investigators and examiners can touch anything. These photos will then be constantly referenced during the remainder of investigation and procescution, if any.</description>
+    </item>
     
     <item>
       <title>Enhanced Spatial Awareness for the Visually Impaired using Mixed Reality and Vibrotactile Feedback</title>
