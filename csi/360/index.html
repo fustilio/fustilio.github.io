@@ -1,37 +1,76 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+  <head>
+	<title>CSI 360° Viewer</title>
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-template-component@3.x.x/dist/aframe-template-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-layout-component@4.x.x/dist/aframe-layout-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@5.x.x/dist/aframe-event-set-component.min.js"></script>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>CSI:FoL Model Viewer</title>
 
-    <meta name="viewport" content="width=device-width, user-scalable=no,
-  minimum-scale=1.0, maximum-scale=1.0">
-    <link type="text/css" href="../csisite.css" rel="stylesheet">
+	<script>
+		AFRAME.registerComponent('log', {
+			schema: {type: 'string'},
 
-    <!-- Import the component -->
-    <script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+			init: function () {
+				var stringToLog = this.data;
+				console.log(stringToLog);
+			}
+		});
+	</script>
+  </head>
+  <body>
+	<a-scene>
+		<a-assets>
+		  <audio id="click-sound" src="https://cdn.aframe.io/360-image-gallery-boilerplate/audio/click.ogg"></audio>
+	  
+		  <!-- Images. -->
+		  <img id="vp1-thumb" src="./images/vp1.png">
+		  <img id="vp2-thumb" src="./images/vp2.png">
+		  <img id="vp3-thumb" src="./images/vp3.png">
 
-    <script>
-    
-      function onVrViewLoad() {
-        // Selector '#vrview' finds element with id 'vrview'.
-        var vrView = new VRView.Player('#vrview', {
-          image: './images/view1height1.jpg',
-          is_stereo: false,
-          width: "auto",
-          height: "auto"
-        });
-      }
+		  <img id="v1h1" src="./images/view1height1.jpg">
+		  <img id="v2h1" src="./images/view2height1.jpg">
+		  <img id="v3h1" src="./images/view3height1.jpg">
+		</a-assets>
+	  
+		<!-- 360-degree image. -->
+		<a-sky
+			id="image-360" radius="10" src="#v1h1"
+			animation__fade="property: components.material.material.color; type: color; from: #FFF; to: #000; dur: 300; startEvents: fade"
+			animation__fadeback="property: components.material.material.color; type: color; from: #000; to: #FFF; dur: 300; startEvents: animationcomplete__fade" rotation="0 0 0">
+		</a-sky>
+	  
+		<!-- Link template we will build. -->
+		<script id="plane" type="text/html">
+			<a-entity class="link"
+			geometry="primitive: plane; height: 1; width: 1"
+			material="shader: flat; src: ${thumb}"
+			sound="on: click; src: #click-sound"
+			event-set__mouseenter="scale: 1.2 1.2 1"
+			event-set__mouseleave="scale: 1 1 1"
+			event-set__click="_target: #image-360; _delay: 300; material.src: ${src};"
+			proxy-event="event: click; to: #image-360; as: fade"></a-entity>
+		</script>
 
-      window.addEventListener('load', onVrViewLoad);
+		<a-entity id="links" layout="type: line; margin: 1.5" position="-3 -1 -4">
+			<a-entity log="Load button 1" template="src: #plane" data-src="#v1h1" data-thumb="#vp1-thumb"></a-entity>
+			<a-entity log="Load button 2" template="src: #plane" data-src="#v2h1" data-thumb="#vp2-thumb"></a-entity>
+			<a-entity log="Load button 3" template="src: #plane" data-src="#v3h1" data-thumb="#vp3-thumb"></a-entity>
+			
+		</a-entity>
+	  
+		<!-- Camera + Cursor. -->
+		<a-camera>
+		  <a-cursor
+			id="cursor"
+			animation__click="property: scale; from: 0.1 0.1 0.1; to: 1 1 1; easing: easeInCubic; dur: 150; startEvents: click"
+			animation__clickreset="property: scale; to: 0.1 0.1 0.1; dur: 1; startEvents: animationcomplete__click"
+			animation__fusing="property: scale; from: 1 1 1; to: 0.1 0.1 0.1; easing: easeInCubic; dur: 150; startEvents: fusing"></a-cursor>
+		</a-camera>
+	  </a-scene>
 
-    </script>
-
-</head>
-
-<body>
-  <div id='vrview' class="vrdemo"></div>
-</body>
-
+	  <script>
+		  var entityEl = document.querySelector('a-entity');
+	  </script>
+  </body>
 </html>
